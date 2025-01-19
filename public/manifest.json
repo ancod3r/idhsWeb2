@@ -1,0 +1,26 @@
+{
+  "short_name": "Idhs",
+  "name": "Indian Digital Health Solutions",
+  "description": "Indian Digital Health Solutions, We are committed to providing top-notch health services to our user within their city. Our mission is to help people achieve optimal health and wellness through personalized plans and ongoing support.",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "256x256 128x128 64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "KailashUpchar192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "KailashUpchar512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#7258BC",
+  "background_color": "#ffffff"
+}

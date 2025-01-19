@@ -1,0 +1,76 @@
+/* PhoneInput */
+.PhoneInput{
+  display: flex;
+  align-items: center;
+}
+.PhoneInputCountrySelect {
+  /* color: #7258BC; */
+  background-color: #fff !important;
+}
+.PhoneInputInput {
+  flex: 1;
+  border-radius: 5px;
+  border: 2px solid #00B29A;
+  min-width: 0;
+  min-height: 0;
+  padding: 10px;
+  transition: border-color 0.3s ease;
+}
+.PhoneInputInput:focus {
+  /* border-color: #7258BC; */
+  /* border-color: #00B29A; */
+  outline: none;
+}
+
+/* Loading */
+.loader-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+.loader {
+  border: 8px solid #f3f3f3;
+  border-top: 8px solid #7258BC;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 0.5s linear infinite;
+  -webkit-animation: spin 0.5s linear infinite;
+}
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@media (max-width: 600px) {
+  .MuiCardMedia-root {
+    height: 100%;
+  }
+  .MuiDivider-root {
+    display: none;
+  }
+}
+
+.footer-link {
+  display: inline-block;
+  text-decoration: none;
+  color: #000;
+  padding-bottom: 5px; 
+  margin-bottom: 5px;
+  border: none;
+}
+
+.dropdown-label .MuiInputLabel-root {
+  color: #fff !important;
+  overflow: auto;
+}
+
+/* .dropdown-label:focus{
+  border-color: #fff !important;
+} */
+
+.MuiInputLabel-shrink {
+  color: #fff !important;
+}
